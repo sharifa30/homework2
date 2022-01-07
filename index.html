@@ -1,122 +1,80 @@
 <!DOCTYPE html>
 <html>
-<head>
-          <meta charset = "utf-8">
-          <title> First project </title>
-</head>
-<body style ="background-color: pink;">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Project of day3</title>
+        <link rel="stylesheet" href="style.css">
+    </head>    
+    
+<body>
+    <header>
+    <div class="logo">Logo</div>
+    
+    <nav>
+    <ul>
+        <li><a href="#">Home</a></li> 
+        <li><a href="#">About</a></li>    
+        <li><a href="#">Protfolio</a></li>    
+        <li><a href="#">Services</a></li>    
+        <li><a href="#">Contact</a></li>    
+    </ul>    
+    </nav>
+    </header>
+    
+   
+<div class="banner">
+<img src="img/images.jpg" alt="">     
+</div>
+   
+<div class="content">
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+</div>  
+    
+    <div class="small-container">
+        <h2 class="title">Some Picture Colection</h2>
+    </div>
 
-<!--HeadingTag-->
-<header>
-        <div class="header-1">
-            <p></p>
+<div class="banner2">
+<img src="img/download.jpg" alt=""> 
+<img src="img/1.jpg" alt="">
+<img src="img/download.jpg" alt="">
+<img src="img/1.jpg" alt="">
+<img src="img/download.jpg" alt="">
+<img src="img/1.jpg" alt="">
+</div>
+    
+    
+<!--contact section-->
+    
+<h3>Contact Form</h3>
 
-<form action="#" class="search-box-container">
-                <input type="Search" id="search-box" placeholder="search here....">
-                <label for="search-box" class=""></label>
-            </form>
-            
-         <h1 style = "color:brown;">My Frist Homework</h1>
-         <h2 style ="color: red;"> This is heading tag</h2>
-        <h3>  This is heading tag</h3>
-        <h4 style ="color: green;"> This is <i>heading</i> tag</h4>
-       <h5>  This is heading tag </h5>
-        <h6 style ="color : #FF5733;"> <i> <b>This is heading tag</i></b></h6>
+<div class="container">
+  <form action="">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
 
-<h2 style="color:red;">Natural Image</h2>
-<img src = "two.jpg" alt="#" width="500" height="333">
-<p>This is natural image.This is natural image.<p>This is natural image.This is natural image.This is natural image.This is natural image.This is natural image.
-<p>If a browser cannot find the image, it will display the alternate text:</p>
-<img src="wrongname.gif" alt="Flowers in Chania">
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
 
-<!--Table Tag-->
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="bangladesh">Bangladesh</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
 
-<style>
-table, th, td {
-  border:1px solid black;
-}
-</style>
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
 
-<h2 style="color: green;">TD elements define table cells</h2>
-<table style=width100%">
-  <tr>
-    <td>Name</td>
-    <td>Roll</td>
-    <td>Shift</td>
-  </tr>
+    <input type="submit" value="Submit">
+  </form>
+</div>
 
-<tr>
-    <td>Sharifa</td>
-    <td>926258</td>
-    <td>1st</td>
-  </tr>
-
-<tr>
-    <td>Najifa</td>
-    <td>926228</td>
-    <td>1st</td>
-  </tr>
-</table>
-
-<h2>An unordered HTML list</h2>
-
-<ul>
-  <li>Coffee</li>
-  <li>Tea</li>
-  <li>Milk</li>
-</ul>  
-
-<h2>An ordered HTML list</h2>
-
-<ol>
-  <li>Coffee</li>
-  <li>Tea</li>
-  <li>Milk</li>
-</ol>  
-
-<h2>A Description List</h2>
-
-<dl>
-  <dt>Coffee</dt>
-  <dd>- black hot drink</dd>
-  <dt>Milk</dt>
-  <dd>- white cold drink</dd>
-</dl>
-
-<h2 style="color: #990000;">Vedio song</h2>
-
-  <video width="320" height="240" controls>
-  <source src="movie.mp4" type="video/mp4">
-  <source src="movie.ogg" type="video/ogg">
-  Your browser does not support the video tag.
-</video>
-
-
-<h2 style="color: #990000;">Audio song</h2>
-
-
-<audio controls >
-  <source src="horse.ogg" type="audio/ogg">
-  <source src="horse.mp3" type="audio/mpeg">
-Your browser does not support the audio element.
-</audio>
-
-
+<footer>
+<p>All right reserved by my website</p>
+</footer>
+    
 </body>
 </html>
-
-
-
-
-
-
-
-       
-                                            
-
-
-         
-         
-	
-
-
